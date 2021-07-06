@@ -5,7 +5,7 @@ const Header = ({ onAdd, showAdd }) => {
     <header className="header">
       <h1>Task Tracker</h1>
       <Button
-        color={showAdd ? 'red' : 'green'}
+        color={showAdd ? '#ED254E' : '#A1C181'}
         text={showAdd ? 'Close' : 'Add'}
         onClick={onAdd}
       />
